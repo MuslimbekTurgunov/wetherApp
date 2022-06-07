@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E61F0E3A42188791B5E443E /* Pods_wetherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CDF6EBF883A8702A14DDF0 /* Pods_wetherApp.framework */; };
 		FAA57360284EE4D900FE2A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5735F284EE4D900FE2A3E /* AppDelegate.swift */; };
-		FAA57362284EE4D900FE2A3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57361284EE4D900FE2A3E /* SceneDelegate.swift */; };
-		FAA57364284EE4D900FE2A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57363284EE4D900FE2A3E /* ViewController.swift */; };
-		FAA57367284EE4D900FE2A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA57365284EE4D900FE2A3E /* Main.storyboard */; };
 		FAA57369284EE4DD00FE2A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA57368284EE4DD00FE2A3E /* Assets.xcassets */; };
 		FAA5736C284EE4DD00FE2A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5736A284EE4DD00FE2A3E /* LaunchScreen.storyboard */; };
+		FAA57374284EE50C00FE2A3E /* wetherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57373284EE50C00FE2A3E /* wetherVC.swift */; };
+		FAA57376284EE52B00FE2A3E /* wetherTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57375284EE52B00FE2A3E /* wetherTVC.swift */; };
+		FAA57378284EE5AC00FE2A3E /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57377284EE5AB00FE2A3E /* DataModels.swift */; };
+		FAA5737B284EEA9900FE2A3E /* exceple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57379284EEA9900FE2A3E /* exceple.swift */; };
+		FAA5737C284EEA9900FE2A3E /* exceple.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5737A284EEA9900FE2A3E /* exceple.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00CDF6EBF883A8702A14DDF0 /* Pods_wetherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wetherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E661EB787514D30F3E02D22 /* Pods-wetherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetherApp.debug.xcconfig"; path = "Target Support Files/Pods-wetherApp/Pods-wetherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF6FA1BE972DA97710F3E52F /* Pods-wetherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetherApp.release.xcconfig"; path = "Target Support Files/Pods-wetherApp/Pods-wetherApp.release.xcconfig"; sourceTree = "<group>"; };
 		FAA5735C284EE4D900FE2A3E /* wetherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wetherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA5735F284EE4D900FE2A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA57361284EE4D900FE2A3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA57363284EE4D900FE2A3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAA57366284EE4D900FE2A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA57368284EE4DD00FE2A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA5736B284EE4DD00FE2A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA5736D284EE4DD00FE2A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA57373284EE50C00FE2A3E /* wetherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wetherVC.swift; sourceTree = "<group>"; };
+		FAA57375284EE52B00FE2A3E /* wetherTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wetherTVC.swift; sourceTree = "<group>"; };
+		FAA57377284EE5AB00FE2A3E /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		FAA57379284EEA9900FE2A3E /* exceple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exceple.swift; sourceTree = "<group>"; };
+		FAA5737A284EEA9900FE2A3E /* exceple.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = exceple.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E61F0E3A42188791B5E443E /* Pods_wetherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		158F5E2CDC0AB6A83A05D93D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00CDF6EBF883A8702A14DDF0 /* Pods_wetherApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C508BD73D6190714796BC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E661EB787514D30F3E02D22 /* Pods-wetherApp.debug.xcconfig */,
+				BF6FA1BE972DA97710F3E52F /* Pods-wetherApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAA57353284EE4D900FE2A3E = {
 			isa = PBXGroup;
 			children = (
 				FAA5735E284EE4D900FE2A3E /* wetherApp */,
 				FAA5735D284EE4D900FE2A3E /* Products */,
+				68C508BD73D6190714796BC4 /* Pods */,
+				158F5E2CDC0AB6A83A05D93D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				FAA5735F284EE4D900FE2A3E /* AppDelegate.swift */,
-				FAA57361284EE4D900FE2A3E /* SceneDelegate.swift */,
-				FAA57363284EE4D900FE2A3E /* ViewController.swift */,
-				FAA57365284EE4D900FE2A3E /* Main.storyboard */,
+				FAA57373284EE50C00FE2A3E /* wetherVC.swift */,
+				FAA57375284EE52B00FE2A3E /* wetherTVC.swift */,
+				FAA57377284EE5AB00FE2A3E /* DataModels.swift */,
 				FAA57368284EE4DD00FE2A3E /* Assets.xcassets */,
 				FAA5736A284EE4DD00FE2A3E /* LaunchScreen.storyboard */,
 				FAA5736D284EE4DD00FE2A3E /* Info.plist */,
+				FAA57379284EEA9900FE2A3E /* exceple.swift */,
+				FAA5737A284EEA9900FE2A3E /* exceple.xib */,
 			);
 			path = wetherApp;
 			sourceTree = "<group>";
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA57370284EE4DD00FE2A3E /* Build configuration list for PBXNativeTarget "wetherApp" */;
 			buildPhases = (
+				E871517266146231328B2B3C /* [CP] Check Pods Manifest.lock */,
 				FAA57358284EE4D900FE2A3E /* Sources */,
 				FAA57359284EE4D900FE2A3E /* Frameworks */,
 				FAA5735A284EE4D900FE2A3E /* Resources */,
+				021B87478F53E796731A423D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +159,70 @@
 			files = (
 				FAA5736C284EE4DD00FE2A3E /* LaunchScreen.storyboard in Resources */,
 				FAA57369284EE4DD00FE2A3E /* Assets.xcassets in Resources */,
-				FAA57367284EE4D900FE2A3E /* Main.storyboard in Resources */,
+				FAA5737C284EEA9900FE2A3E /* exceple.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		021B87478F53E796731A423D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wetherApp/Pods-wetherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wetherApp/Pods-wetherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wetherApp/Pods-wetherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E871517266146231328B2B3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wetherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAA57358284EE4D900FE2A3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA57364284EE4D900FE2A3E /* ViewController.swift in Sources */,
+				FAA57376284EE52B00FE2A3E /* wetherTVC.swift in Sources */,
+				FAA57378284EE5AC00FE2A3E /* DataModels.swift in Sources */,
 				FAA57360284EE4D900FE2A3E /* AppDelegate.swift in Sources */,
-				FAA57362284EE4D900FE2A3E /* SceneDelegate.swift in Sources */,
+				FAA57374284EE50C00FE2A3E /* wetherVC.swift in Sources */,
+				FAA5737B284EEA9900FE2A3E /* exceple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAA57365284EE4D900FE2A3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAA57366284EE4D900FE2A3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAA5736A284EE4DD00FE2A3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +352,7 @@
 		};
 		FAA57371284EE4DD00FE2A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E661EB787514D30F3E02D22 /* Pods-wetherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +362,7 @@
 				INFOPLIST_FILE = wetherApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,12 +374,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FAA57372284EE4DD00FE2A3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6FA1BE972DA97710F3E52F /* Pods-wetherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +390,7 @@
 				INFOPLIST_FILE = wetherApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
